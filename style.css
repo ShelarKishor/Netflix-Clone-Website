@@ -1,0 +1,516 @@
+
+.header {
+    font-family: 'Poppins', sasans-serif;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(./background.jpg);
+    background-size:cover;
+    background-position: center;
+    padding: 10px ;
+    position: relative;
+    border-bottom: solid;
+
+}
+
+body { background: #000 ;
+    color: #fff;}
+
+
+
+ 
+ 
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10x 0;
+    
+}  
+.logo {
+    width: 200px;
+    cursor: pointer;
+    padding-left: 70px;
+
+}
+nav button { border: 0;
+            outline: 0;
+            background-color: red;
+            color: white;
+            padding: 7px 20px;
+            font-size : 12px;
+            border-radius: 4px;
+            margin-left: 10px;
+            
+            cursor: pointer;
+       }
+.language-button{
+    display: inline flex;
+    align-items: center;
+    background: transparent;
+    border: 1px solid white;
+    padding: 7px 10px;
+    
+}
+
+.header-content {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    margin-top: 50px;
+}
+.header-content h1 {
+    font-size: 60px;
+    line-height: 70px;
+    
+    max-width: 650px;
+    font-size: 35px;
+    margin-left: 0px;
+
+
+}
+
+.email-signup  {
+background: black;
+
+border-radius: 4px;
+display: flex;
+align-items: center;
+margin-top: 30px;
+overflow: hidden;
+background: transparent;
+opacity: 0.9;
+
+
+}
+
+
+
+.email-signup input {
+flex: 1;
+border: 0;
+outline: 0;
+margin-left: 20px;
+background-color: black;
+color: white;
+opacity: 0.7;
+height: 52px;
+border: 1px solid white;
+border-radius: 5px;
+margin-right: 10px;
+
+}
+
+#input{
+    width: 50px;
+
+}
+
+
+.email-signup button {
+background: red;
+border: 0;
+outline: 0;
+color: white;
+font-size: 15px;
+cursor: pointer;
+padding: 15px 30px;
+border-radius: 5px;
+
+}
+.features {
+padding: 50px 12%;
+font-size:22px;
+background-color: #000;
+
+
+}
+.text-col {
+flex-basis: 50%;
+margin-bottom: 20px;
+color: white;
+font-size: 25px;
+
+
+
+}
+
+
+.img-col {
+flex-basis: 50%;
+margin-bottom: 40px;
+}
+.img-col img {
+display: block;
+width: 90%;
+margin: auto;
+}
+
+.header content {
+
+padding: 50px 15% 10px;
+border-top: 6px solid #333;
+color: #777;
+}
+.info {
+text-align: center;
+line-height: 100px;
+padding-left: 32%;
+cursor: pointer;
+}
+
+.text {
+text-align: center;
+padding-left: 0;
+padding-right: 0;
+font-size: 33px;
+color: white;
+
+}
+
+.feq {
+margin: 60px auto;
+width: 100%;
+max-width: 750px;
+color: white;
+float: left;
+padding-left: -20px;
+
+padding: 10px 12%;
+text-align: center;
+font-size: 18px;
+padding-left: 0px;
+
+
+}
+
+.qustions li label {
+display: flex;
+
+align-items: center;
+padding: 20px;
+margin-left: -110px;
+font-size: 10px;
+font-weight: 400;
+background: #303030;
+margin-bottom: 2px;
+cursor: pointer;
+position: relative;
+
+}
+.features h2 {
+font-size: 50px;
+font-weight: 600;
+margin-bottom: 20px;
+
+
+
+}
+
+
+
+.qustions {
+list-style-type: none;
+margin: 60px auto;
+width: 100;
+max-width: 700px;
+
+}
+.qustions li {
+list-style: none;
+width: 130%;
+align-items:start;
+padding: 5px;
+padding-right: 40px;
+
+}
+.qustions li label {
+display: flex;
+align-items: center;
+padding: 30px;
+font-size: 25px;
+font-weight: 500;
+background: #322f2f;
+margin-bottom: 2px;
+cursor: pointer;
+position: relative;
+
+
+
+
+}
+label::after {
+content:'+';
+font-size: 34px;
+position: absolute;
+right: 20px;
+}
+
+.qustions .content {
+background: #303030;
+text-align: left;
+padding: 0 20px;
+max-height: 0;
+overflow:hidden;
+transition: max-height 0.05s;
+padding: 0.5s;
+
+
+}
+.qustions input [type="radio"] :checked + lable + .qustions{
+max-height: 600px;
+padding:30px 20px ;
+
+}
+.qustions input [type="radio"] :checked + lable + ::after{
+transform: rotate(20d);
+}
+
+.email-signup2 {
+    background: white;
+border-radius: 4px;
+display: flex;
+align-items: center;
+margin-top: 30px;
+overflow: hidden;
+
+}
+
+.email-signup2 input {
+    flex: 1;
+    border: 0;
+    outline: 0;
+    margin-left: 20px;
+    }
+    .email-signup2 button {
+    background: red;
+    border: 0;
+    outline: 0;
+    color: white;
+    font-size: 10px;
+    cursor: pointer;
+    padding: 15px 30px;
+    
+    }
+
+.footer h2 {
+font-size: 18px;
+font-weight: 400;
+margin-bottom: 30;
+color: white;
+}
+.footer .col {
+flex-basis: 25%;
+flex-grow: 1;
+margin-bottom: 30px;
+
+}
+
+.footer .col  {
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+display: block;
+text-decoration: underline;
+color: #777;
+font-size: 22px;
+margin-bottom: 10px;
+padding-right: 200px;
+
+}
+.footer .row {
+align-items: flex-start;
+padding: 10px 0;
+align-items: center;
+
+}
+.English-language{
+    background-color: #272626;
+    color: white;
+    font-size: 11px;
+    border-radius: 5px;
+    border-color: transparent;
+    border: 1px solid white
+}
+
+.navbar-nav {
+    margin-left: 400px;
+    color: #f9f9f9;
+    padding: 1px 20px;
+    border-radius: 3px;
+    
+    
+    }
+
+.copyright-text {
+color:white;
+font-size: 15px;
+margin-top: 20px;
+margin-bottom: 10px;
+font-family: 'Courier New', Courier, monospace;
+
+}
+
+
+/* New */
+
+ 
+.navbar { border: 0;
+    outline: 0;
+    background-color: red;
+    color: white;
+    padding: 7px 20px;
+    font-size : 12px;   
+    cursor: pointer;
+    
+}
+
+.language-button{
+display: inline flex;
+align-items: center;
+background: transparent;
+border: 1px solid white;
+padding: 7px 10px;
+
+}
+
+.up-arrow {
+      position: fixed;
+      border-radius: 50px;
+      background-color: rgb(250, 25, 25);
+      bottom: 50px; 
+      right: 50px;
+      border: 1px solid white;
+        
+}
+
+
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 375px;
+    background-color: black;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content:space-around;
+  
+  }
+  
+  .footercon {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 50px;
+    background-color: transparent;
+  }
+  
+  .footer .flex1 {
+    color:#999;;
+    justify-content:space-around;
+    align-items:flex-start;
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    width:100%;
+    font-size: 17px;
+    min-height: 30px;
+  
+  }
+  
+  .footer .flex1 h5 {
+    align-self:flex-start;
+    margin-right: 550px;
+  }
+  
+  .list1 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-items: flex-start;
+    align-self: center;
+    justify-content: center;
+    min-height:50px;
+    font-size: 13px;
+    padding: 0px 70px;
+    text-align: left;
+  }
+  
+  .list1 li {
+    font-size: 13px;
+    margin: 7px -10px;
+    list-style-type: none;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-items: center;
+    align-self: flex-start;
+    justify-content: center;
+  }
+  
+  .list1 li a {
+    color: #999;
+   
+    font-size: 14px;
+  }
+  
+  li a {
+    font-size: 13px;
+    text-align: center;
+    color: #999;
+  }
+  
+  
+  .footertxt {
+    color:white;
+    display:flex;
+    flex-direction:row;
+    align-items:flex-end;
+    justify-content: flex-end;
+  }
+  
+  .end {
+    width:100%;
+    min-height:50px;
+  background-color: black;
+  justify-content:space-around;
+  align-items:flex-start;
+  display: flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  color:#999;
+  margin-top:-60px;
+  }
+  
+  .end h2 {
+    display:flex;
+    flex-direction: row;
+  font-size:16px;
+  }
+  
+
+  .btn-lang{
+    background-color: #272626;
+    color: white;
+    font-size: 20px;
+    height: 40px;
+    width: 130px;
+    border-radius: 5px;
+    border-color: transparent;
+    border: 1px solid white;
+  }
+
+  #dis {
+    font-size: 10px;
+    color: white; 
+  }
